@@ -120,7 +120,7 @@ document.querySelector('.search-box').addEventListener('keypress', function(e) {
     if (e.key === 'Enter') {
         const searchTerm = this.value;
         if (searchTerm) {
-            window.location.href = `https://www.bing.com/search?q=${encodeURIComponent(searchTerm)}`;
+            window.location.href = `https://www.oscobo.com/find.php?q=${encodeURIComponent(searchTerm)}`;
         }
     }
 });
